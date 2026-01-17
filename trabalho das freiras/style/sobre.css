@@ -1,0 +1,39 @@
+#ancora-Sobre{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+#titulo-Sobre{
+    font-size: clamp(1rem, 2vw, 2rem);
+    background-color: #655234;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 40px;
+    border-right: 10px solid white;
+}
+
+
+#texto-Sobre{
+    text-align: justify;
+    font-size: clamp(1rem, 1.6vw, 2rem);
+    background-color: #9c8057;
+    padding: 40px;
+    padding-bottom: 100px;
+    border-bottom-left-radius: 40px ;
+    border-right: 10px solid white;
+    color: rgb(36, 28, 21);
+      
+}
+
+#ancora-Sobre img{
+    max-height: 32.2%;
+    width: 32.2%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}

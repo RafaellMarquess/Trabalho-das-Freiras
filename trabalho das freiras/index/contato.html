@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/matricula.css">
+</head>
+<body>
+
+    <section id="fundo">
+        <h1>Matricular-se</h1>
+        <form >
+            <div id="nome" class="formato">
+                Nome<br>
+                <input type="text" placeholder="nome completo" required>
+            </div>
+            <div id="mãe" class="formato">
+                Nome da Mãe<br>
+                <input type="text" placeholder="Nome completo" required>
+            </div>
+            <div id="pai" class="formato">
+                Nome do Pai<br>
+                <input type="text" placeholder="Nome completo" required>
+            </div>
+            <div id="telefone" class="formato">
+                Seu Número<br> 
+                <input type="number" placeholder="+55 (00) 00000-0000" required readonly>
+            </div>
+            <div id="nascimento" class="formato">
+                Data de Nascimento<br>
+                <input type="date" required>
+            </div>
+            <div id="rg" class="formato">
+                RG<br>
+                <input type="number" placeholder="12 34568-45" required readonly>
+            </div>
+            <div id="cpf" class="formato" >
+                CPF<br>
+                <input type="number" placeholder="122 344 455-66" required readonly>
+            </div>
+            <div id="email" class="formato">
+                E-mail<br>
+                <input type="email" placeholder="teste123@gmail.com" required>
+            </div>
+            <div id="comprovante" >
+                <label for="arquivo">Comprovante de residência</label> 
+                <br><input type="file" id="arquivo">
+            </div>
+            <div id="enviar">
+                <button type="submit">
+                    Enviar
+                </button>
+            </div>
+        </form>
+    </section>
+    
+</body>
+</html>

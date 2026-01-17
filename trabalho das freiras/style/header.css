@@ -1,0 +1,61 @@
+/** css do header **/
+
+header {
+   display: flex;
+   position: sticky;
+   top: 0;
+   z-index: 3;
+   justify-content: space-between;
+   background-color: #c3a77d;
+   width: 100%;
+}
+
+nav {
+  margin-right: 20px;
+  font-size: 15px;
+  gap: 30px;
+
+  
+} 
+#menu{
+   display: flex;
+   align-items: center;
+}
+
+#logo{
+   display: flex;
+   width: 500px;
+   height: 100px;
+   gap: 8px;
+   color: white;
+   align-items: center;
+}
+
+#logo #titulo{
+    font-size: 13px;
+}
+
+#logo img{
+    margin-left: 5px;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+}
+
+a {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: white;
+   gap: 8px;
+  
+}
+
+a img{
+   width: 27px;
+   height: 27px;
+}
+
+
+
+/***********/

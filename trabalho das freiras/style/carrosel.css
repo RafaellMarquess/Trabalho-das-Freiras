@@ -1,0 +1,49 @@
+.carrossel {
+      margin-left: 5%;
+      margin-top: 60px;
+      width: 90%;
+      overflow: hidden;
+    }
+
+    .slides {
+      display: flex;
+      width: max-content;
+      animation: scroll 60s linear infinite;
+      gap: 10px;
+    }
+
+    .slides img {
+      width: 25vw;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    @keyframes scroll {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-50%);
+      }
+    }
+
+/** botão saiba mais**/
+
+#ancora-Contato a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(107, 70, 34);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 40px;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+#ancora-Contato a:hover{
+    background-color: rgb(222, 191, 140);
+}

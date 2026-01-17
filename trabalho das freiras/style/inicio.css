@@ -1,0 +1,35 @@
+#ancora-Inicio {
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ancora-Inicio img {
+  display: block; 
+  width: 100%; 
+  height: auto; 
+}
+
+#ancora-Inicio h1{
+  position: absolute;
+  font-size: clamp(1rem, 2.5vw, 2.8rem);
+  color: #c29d63;
+  border-left: 5px solid black;
+  padding: 10px;
+  top: 5%;
+  left: 4%;
+}
+
+#ancora-Inicio h2{
+    position: absolute;
+    text-align: center;
+    font-size: clamp(1rem, 2vw, 2rem);
+    top: 92%;
+    left: 5%;
+    max-width: 90%;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    backdrop-filter: blur(10px);
+    color: aliceblue;
+}

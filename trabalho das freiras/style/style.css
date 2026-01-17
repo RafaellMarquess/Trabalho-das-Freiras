@@ -1,0 +1,14 @@
+@import url(./header.css);
+@import url(./inicio.css);
+@import url(./sobre.css);
+@import url(./carrosel.css);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Opens Sans", sans-serif;
+  background-color: #383022;
+}
